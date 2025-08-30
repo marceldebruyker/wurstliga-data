@@ -1,0 +1,105 @@
+{
+  "matches": [
+    {
+      "home": "FC Bayern München",
+      "away": "RB Leipzig",
+      "result": "6 : 0"
+    },
+    {
+      "home": "1. FC Union Berlin",
+      "away": "VfB Stuttgart",
+      "result": "2 : 1"
+    },
+    {
+      "home": "1. FC Heidenheim 1846",
+      "away": "VfL Wolfsburg",
+      "result": "1 : 3"
+    },
+    {
+      "home": "Bayer 04 Leverkusen",
+      "away": "1899 Hoffenheim",
+      "result": "1 : 2"
+    },
+    {
+      "home": "SC Freiburg",
+      "away": "FC Augsburg",
+      "result": "1 : 3"
+    },
+    {
+      "home": "Eintracht Frankfurt",
+      "away": "Werder Bremen",
+      "result": "4 : 1"
+    },
+    {
+      "home": "FC St. Pauli",
+      "away": "Borussia Dortmund",
+      "result": "3 : 3"
+    },
+    {
+      "home": "FSV Mainz 05",
+      "away": "1. FC Köln",
+      "result": "0 : 1"
+    },
+    {
+      "home": "Bor. Mönchengladbach",
+      "away": "Hamburger SV",
+      "result": "0 : 0"
+    }
+  ],
+  "players": [
+    {
+      "name": "PEPE",
+      "kicktipp_P": 5
+    },
+    {
+      "name": "GONZALES",
+      "kicktipp_P": 4
+    },
+    {
+      "name": "PONG",
+      "kicktipp_P": 3
+    },
+    {
+      "name": "FLUTSCH",
+      "kicktipp_P": 3
+    },
+    {
+      "name": "MANFRED",
+      "kicktipp_P": 3
+    },
+    {
+      "name": "URS",
+      "kicktipp_P": 3
+    },
+    {
+      "name": "CHARLY",
+      "kicktipp_P": 3
+    },
+    {
+      "name": "BANJASZ",
+      "kicktipp_P": 2
+    },
+    {
+      "name": "CHRISTO",
+      "kicktipp_P": 2
+    },
+    {
+      "name": "JEAN-MARIE",
+      "kicktipp_P": 2
+    },
+    {
+      "name": "MUMBATA",
+      "kicktipp_P": 2
+    },
+    {
+      "name": "SOEREN",
+      "kicktipp_P": 2
+    },
+    {
+      "name": "MALAKA",
+      "kicktipp_P": 2
+    }
+  ],
+  "total_matches": 9,
+  "total_players": 13
+}
