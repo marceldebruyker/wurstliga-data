@@ -1,0 +1,189 @@
+{
+  "season": "2025-26",
+  "spieltag": 11,
+  "status": "not_started",
+  "matches": [
+    {
+      "kicktipp_row": 1,
+      "datetime_local": "2025-11-22T15:30:00+01:00",
+      "home": "FC Augsburg",
+      "away": "Hamburger SV",
+      "result": ""
+    },
+    {
+      "kicktipp_row": 2,
+      "datetime_local": "2025-11-22T15:30:00+01:00",
+      "home": "Borussia Dortmund",
+      "away": "VfB Stuttgart",
+      "result": ""
+    },
+    {
+      "kicktipp_row": 3,
+      "datetime_local": "2025-11-22T15:30:00+01:00",
+      "home": "FC Bayern München",
+      "away": "SC Freiburg",
+      "result": ""
+    },
+    {
+      "kicktipp_row": 4,
+      "datetime_local": "2025-11-22T15:30:00+01:00",
+      "home": "1. FC Heidenheim 1846",
+      "away": "Bor. Mönchengladbach",
+      "result": ""
+    },
+    {
+      "kicktipp_row": 5,
+      "datetime_local": "2025-11-22T15:30:00+01:00",
+      "home": "1. FC Köln",
+      "away": "Eintracht Frankfurt",
+      "result": ""
+    },
+    {
+      "kicktipp_row": 6,
+      "datetime_local": "2025-11-22T15:30:00+01:00",
+      "home": "RB Leipzig",
+      "away": "Werder Bremen",
+      "result": ""
+    },
+    {
+      "kicktipp_row": 7,
+      "datetime_local": "2025-11-22T15:30:00+01:00",
+      "home": "FSV Mainz 05",
+      "away": "1899 Hoffenheim",
+      "result": ""
+    },
+    {
+      "kicktipp_row": 8,
+      "datetime_local": "2025-11-22T15:30:00+01:00",
+      "home": "VfL Wolfsburg",
+      "away": "Bayer 04 Leverkusen",
+      "result": ""
+    },
+    {
+      "kicktipp_row": 9,
+      "datetime_local": "2025-11-22T15:30:00+01:00",
+      "home": "FC St. Pauli",
+      "away": "1. FC Union Berlin",
+      "result": ""
+    }
+  ],
+  "players": [
+    {
+      "name": "PONG",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "BANJASZ",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "CHRISTO",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "FLUTSCH",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "GONZALES",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "JEAN-MARIE",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "MANFRED",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "MUMBATA",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "PEPE",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "SOEREN",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "URS",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "MALAKA",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    },
+    {
+      "name": "CHARLY",
+      "kicktipp_P": 0,
+      "dense_rank": 1,
+      "wurstliga_pts": 10,
+      "sts": 1,
+      "tv": 1,
+      "null_wurst": 0
+    }
+  ]
+}

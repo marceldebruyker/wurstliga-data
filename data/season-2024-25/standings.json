@@ -1,0 +1,146 @@
+{
+  "season": "2024-25",
+  "spieltage_counted": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "updated_at": "2025-08-22T21:13:55.416462+02:00",
+  "players": [
+    {
+      "name": "🥇 URS",
+      "kicktipp_sum_P": 234,
+      "wurstliga_sum": 206,
+      "tv_sum": 1,
+      "null_sum": 0,
+      "sts_sum": 6
+    },
+    {
+      "name": "BANJASZ",
+      "kicktipp_sum_P": 218,
+      "wurstliga_sum": 193,
+      "tv_sum": 3,
+      "null_sum": 0,
+      "sts_sum": 5
+    },
+    {
+      "name": "CHARLY",
+      "kicktipp_sum_P": 215,
+      "wurstliga_sum": 188,
+      "tv_sum": 1,
+      "null_sum": 0,
+      "sts_sum": 7
+    },
+    {
+      "name": "🥈 MANFRED",
+      "kicktipp_sum_P": 228,
+      "wurstliga_sum": 187,
+      "tv_sum": 1,
+      "null_sum": 0,
+      "sts_sum": 0
+    },
+    {
+      "name": "MALAKA",
+      "kicktipp_sum_P": 224,
+      "wurstliga_sum": 187,
+      "tv_sum": 0,
+      "null_sum": 0,
+      "sts_sum": 3
+    },
+    {
+      "name": "GONZALES",
+      "kicktipp_sum_P": 223,
+      "wurstliga_sum": 183,
+      "tv_sum": 1,
+      "null_sum": 0,
+      "sts_sum": 2
+    },
+    {
+      "name": "🏆 FLUTSCH",
+      "kicktipp_sum_P": 211,
+      "wurstliga_sum": 180,
+      "tv_sum": 1,
+      "null_sum": 0,
+      "sts_sum": 3
+    },
+    {
+      "name": "JEAN-MARIE",
+      "kicktipp_sum_P": 217,
+      "wurstliga_sum": 178,
+      "tv_sum": 0,
+      "null_sum": 0,
+      "sts_sum": 1
+    },
+    {
+      "name": "MUMBATA",
+      "kicktipp_sum_P": 217,
+      "wurstliga_sum": 177,
+      "tv_sum": 0,
+      "null_sum": 0,
+      "sts_sum": 1
+    },
+    {
+      "name": "SOEREN",
+      "kicktipp_sum_P": 215,
+      "wurstliga_sum": 174,
+      "tv_sum": 2,
+      "null_sum": 1,
+      "sts_sum": 3
+    },
+    {
+      "name": "CHRISTO",
+      "kicktipp_sum_P": 200,
+      "wurstliga_sum": 173,
+      "tv_sum": 0,
+      "null_sum": 0,
+      "sts_sum": 5
+    },
+    {
+      "name": "PONG",
+      "kicktipp_sum_P": 203,
+      "wurstliga_sum": 168,
+      "tv_sum": 1,
+      "null_sum": 0,
+      "sts_sum": 4
+    },
+    {
+      "name": "PEPE",
+      "kicktipp_sum_P": 188,
+      "wurstliga_sum": 163,
+      "tv_sum": 5,
+      "null_sum": 0,
+      "sts_sum": 3
+    }
+  ]
+}

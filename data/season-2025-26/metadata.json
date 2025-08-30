@@ -1,0 +1,142 @@
+{
+  "season": "2025-26",
+  "spieltage": {
+    "1": {
+      "status": "in_progress",
+      "players": 13
+    },
+    "2": {
+      "status": "not_started",
+      "players": 13
+    },
+    "3": {
+      "status": "not_started",
+      "players": 13
+    },
+    "4": {
+      "status": "not_started",
+      "players": 13
+    },
+    "5": {
+      "status": "not_started",
+      "players": 13
+    },
+    "6": {
+      "status": "not_started",
+      "players": 13
+    },
+    "7": {
+      "status": "not_started",
+      "players": 13
+    },
+    "8": {
+      "status": "not_started",
+      "players": 13
+    },
+    "9": {
+      "status": "not_started",
+      "players": 13
+    },
+    "10": {
+      "status": "not_started",
+      "players": 13
+    },
+    "11": {
+      "status": "not_started",
+      "players": 13
+    },
+    "12": {
+      "status": "not_started",
+      "players": 13
+    },
+    "13": {
+      "status": "not_started",
+      "players": 13
+    },
+    "14": {
+      "status": "not_started",
+      "players": 13
+    },
+    "15": {
+      "status": "not_started",
+      "players": 13
+    },
+    "16": {
+      "status": "not_started",
+      "players": 13
+    },
+    "17": {
+      "status": "not_started",
+      "players": 13
+    },
+    "18": {
+      "status": "not_started",
+      "players": 13
+    },
+    "19": {
+      "status": "not_started",
+      "players": 13
+    },
+    "20": {
+      "status": "not_started",
+      "players": 13
+    },
+    "21": {
+      "status": "not_started",
+      "players": 13
+    },
+    "22": {
+      "status": "not_started",
+      "players": 13
+    },
+    "23": {
+      "status": "not_started",
+      "players": 13
+    },
+    "24": {
+      "status": "not_started",
+      "players": 13
+    },
+    "25": {
+      "status": "not_started",
+      "players": 13
+    },
+    "26": {
+      "status": "not_started",
+      "players": 13
+    },
+    "27": {
+      "status": "not_started",
+      "players": 13
+    },
+    "28": {
+      "status": "not_started",
+      "players": 13
+    },
+    "29": {
+      "status": "not_started",
+      "players": 13
+    },
+    "30": {
+      "status": "not_started",
+      "players": 13
+    },
+    "31": {
+      "status": "not_started",
+      "players": 13
+    },
+    "32": {
+      "status": "not_started",
+      "players": 13
+    },
+    "33": {
+      "status": "not_started",
+      "players": 13
+    },
+    "34": {
+      "status": "not_started",
+      "players": 13
+    }
+  },
+  "updated_at": "2025-08-22T21:24:10.461101+02:00"
+}
