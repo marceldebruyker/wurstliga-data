@@ -38,10 +38,8 @@ jobs:
 
       - name: Run scraper + standings
         run: |
-          cd scraper
-          python scrape_kicktipp.py
-          python compute_wurstliga.py
-          cd ..
+          PYTHONPATH=scraper python scraper/scrape_kicktipp.py
+          PYTHONPATH=scraper python scraper/compute_wurstliga.py
           ls -la data/ || echo "No data directory created"
 
       # Publish only the "data" folder as a static site
