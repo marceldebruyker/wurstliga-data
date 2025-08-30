@@ -1,54 +1,30 @@
 name: Scrape Kicktipp → Publish JSON
 
 on:
-  # NOTE: cron is evaluated in UTC (not Europe/Berlin).
-  # Offset minutes away from :00 to avoid heavy contention.
   schedule:
-    # Every 3 minutes Fri–Sun, 12:00–20:59 UTC  (≈ 14:00–22:59 Berlin during CEST)
-    - cron: "1-59/3 12-20 * * 5"  # Friday
-    - cron: "1-59/3 12-20 * * 6"  # Saturday
-    - cron: "1-59/3 12-20 * * 0"  # Sunday
-
-    # Special window: Jan 13–15 (any year), 15:00–20:59 UTC.
-    # We add a year-guard step below so this only *executes* in 2026.
-    - cron: "1-59/3 15-20 13-15 1 *"
-
-  # Manual trigger
+    # every 5 minutes Fri-Sun, 2pm-10pm Berlin time (12pm-8pm UTC)
+    - cron: "*/5 12-20 * * 5"  # Friday
+    - cron: "*/5 12-20 * * 6"  # Saturday
+    - cron: "*/5 12-20 * * 0"  # Sunday
+    # Special: Jan 13-15, 2026 (Tue-Thu), 5pm-10pm Berlin time (3pm-8pm UTC)
+    - cron: "*/5 15-20 13-15 1 2"  # Jan 13-15, 2026
   workflow_dispatch:
-
-  # External trigger (recommended for reliability): POST /repos/{owner}/{repo}/dispatches with event_type: tick
-  repository_dispatch:
-    types: [tick]
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Let runs queue instead of canceling each other; this prevents frequent aborts
-# when the job duration overlaps the schedule cadence.
 concurrency:
   group: scrape-kicktipp
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-json:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
     env:
       TZ: Europe/Berlin
-
     steps:
-      # If this run was triggered by the special Jan 13–15 cron, only proceed in 2026.
-      # 'exit 78' marks the job neutral and stops early (saves minutes).
-      - name: Guard: only run Jan 13–15 window in 2026
-        run: |
-          # Check if current year is 2026 for special January window
-          YEAR_UTC="$(date -u +%Y)"
-          if [ "$YEAR_UTC" != "2026" ]; then
-            echo "Year guard: $YEAR_UTC (OK for regular schedule)"
-          fi
-
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
@@ -57,7 +33,7 @@ jobs:
 
       - name: Install deps
         run: |
-          python -m pip install -U pip
+          pip install -U pip
           pip install -r scraper/requirements.txt
 
       - name: Run scraper + standings
