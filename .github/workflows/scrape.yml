@@ -6,6 +6,8 @@ on:
     - cron: "*/5 12-20 * * 5"  # Friday
     - cron: "*/5 12-20 * * 6"  # Saturday
     - cron: "*/5 12-20 * * 0"  # Sunday
+    # Special: Jan 13-15, 2026 (Tue-Thu), 5pm-10pm Berlin time (3pm-8pm UTC)
+    - cron: "*/5 15-20 13-15 1 2"  # Jan 13-15, 2026
   workflow_dispatch:
 
 permissions:
