@@ -5,7 +5,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 from config import SEASON, TZ
 
-BASE = os.path.join("data", f"season-{SEASON}")
+BASE = os.path.join("..", "data", f"season-{SEASON}")
 SPIEL_DIR = os.path.join(BASE, "spieltage")
 OUT = os.path.join(BASE, "standings.json")
 

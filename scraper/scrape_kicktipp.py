@@ -46,8 +46,8 @@ from config import (
 
 # ---------- Configuration of output paths ----------
 
-DATA_DIR = os.path.join("data", f"season-{SEASON}", "spieltage")
-META_PATH = os.path.join("data", f"season-{SEASON}", "metadata.json")
+DATA_DIR = os.path.join("..", "data", f"season-{SEASON}", "spieltage")
+META_PATH = os.path.join("..", "data", f"season-{SEASON}", "metadata.json")
 os.makedirs(DATA_DIR, exist_ok=True)
 
 # ---------- HTTP helpers ----------

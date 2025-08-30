@@ -38,8 +38,11 @@ jobs:
 
       - name: Run scraper + standings
         run: |
-          python scraper/scrape_kicktipp.py
-          python scraper/compute_wurstliga.py
+          cd scraper
+          python scrape_kicktipp.py
+          python compute_wurstliga.py
+          cd ..
+          ls -la data/ || echo "No data directory created"
 
       # Publish only the "data" folder as a static site
       - name: Upload Pages artifact
