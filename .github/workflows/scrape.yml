@@ -2,11 +2,10 @@ name: Scrape Kicktipp → Publish JSON
 
 on:
   schedule:
-    # every 10 minutes on Fri–Mon (UTC). Adjust if you like.
-    - cron: "*/10 * * * 5"
-    - cron: "*/10 * * * 6"
-    - cron: "*/10 * * * 0"
-    - cron: "*/10 * * * 1"
+    # every 5 minutes Fri-Sun, 2pm-10pm Berlin time (12pm-8pm UTC)
+    - cron: "*/5 12-20 * * 5"  # Friday
+    - cron: "*/5 12-20 * * 6"  # Saturday
+    - cron: "*/5 12-20 * * 0"  # Sunday
   workflow_dispatch:
 
 permissions:
